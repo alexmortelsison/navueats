@@ -50,13 +50,13 @@ class _LoginPageState extends State<LoginPage> {
                 hintText: "Email",
                 obscureText: false,
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 10),
               MyTextfield(
                 controller: passwordController,
                 hintText: "Password",
                 obscureText: true,
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 25),
               MyButton(onTap: () {}, text: "Sign in"),
               SizedBox(height: 25),
               Row(
